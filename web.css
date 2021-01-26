@@ -75,7 +75,7 @@ body {
   font-size: 14px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 420px) {
   .navbar a {
     padding: 8px;
     font-size: 6px;
