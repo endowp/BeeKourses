@@ -68,17 +68,59 @@ body {
   font-size: 18px;
  }
 
+ul {
+  list-style-position: outside;
+  list-style-type: circle;
+  color: #000000;
+}
+
+li {
+  padding: 5px;
+}
+
+#lp a:link, #lp a:visited {
+  color:#003b63;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}      
+
+#lp a:hover {
+  color: #008a99;
+}
+
 .footer {
   padding: 1px;
   text-align: end;
   background: #005a64;
-  font-size: 14px;
+  font-size: 12px;
 }
+
+/* footer unvisited and visited link */
+.footer a:link, .footer a:visited {
+  color:#FFFAFA;
+  text-decoration: none;
+  font-weight: 100;
+  padding-right: 10px;
+}      
+
+.footer a:hover {
+  color:#ff8800;
+}
+
+.footer a:active {
+  color:#ffae00;
+} 
 
 /* for mobile phone*/
 @media screen and (max-width: 768px) {
+
   .navbar a {
     padding: 8px;
-    font-size: 6px;
+    font-size: 10px;
+  }
+
+  #la, #lp, #lit {
+    padding-top: 5px;
   }
 }
