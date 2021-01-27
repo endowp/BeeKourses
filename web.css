@@ -26,6 +26,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  font-size: 18px;
 }
 
 .navbar a {
@@ -39,6 +40,7 @@ body {
 
 .navbar a.right {
   float: right;
+  font-size: 14px;
 }
 
 .navbar a:hover {
@@ -136,6 +138,10 @@ li {
   .navbar a {
     padding: 8px;
     font-size: 11px;
+  }
+
+  .navbar a.right {
+    font-size: 8px;
   }
 
   #la, #lp, #lit {
