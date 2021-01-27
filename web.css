@@ -1,6 +1,6 @@
-* {
-  box-sizing: border-box;
-} 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   background: #005a64;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .header h1 {
@@ -48,53 +48,52 @@ body {
   color: rgb(255, 255, 255);
 }
 
-#la, #lp, #lit {
+#la, #lp, #lt {
   padding-top: 20px;
 }
 
 .main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
   background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 45px;
+  padding-right: 165px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
+  padding-left: 10px;
  }
 
  .main h5 {
   font-size: 18px;
+  padding-left: 10px;
  }
 
 ul {
-  list-style-position: outside;
-  list-style-type: circle;
+  list-style-type: none;
   color: #000000;
 }
 
 li {
-  padding: 5px;
+  padding: 10px;
 }
 
-#lp a:link, #lp a:visited {
+#la a:link, #lp a:link, #lt a:link, #la a:visited, #lp a:visited, #lt a:visited {
   color:#003b63;
   text-decoration: none;
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }      
 
-#lp a:hover {
-  color: #008a99;
+#la a:hover, #lp a:hover, #lt a:hover {
+  color: #00a1b3;
 }
 
 .footer {
   padding: 1px;
   text-align: end;
-  background: #005a64;
+  background: #3d696e;
   font-size: 12px;
 }
 
@@ -103,28 +102,29 @@ li {
   color:#FFFAFA;
   text-decoration: none;
   font-weight: 100;
-  padding-right: 10px;
+  padding-right: 20px;
 }      
 
 .footer a:hover {
-  color:#ff8800;
+  color:#ffe600;
 }
-
-.footer a:active {
-  color:#ffae00;
-} 
 
 /* for mobile phone*/
 @media screen and (max-width: 768px) {
 
   .header {
-    padding: 50px;
+    padding: 40px;
     font-size: 16px;
     text-align: center;
   }
 
   .header h1 {
     font-size: 35px;
+  }
+
+  .main {  
+    padding-left: 5px;
+    padding-right: 25px;
   }
 
   .main h2 {
@@ -136,12 +136,16 @@ li {
    }
 
   .navbar a {
-    padding: 7px;
+    padding: 5px;
     font-size: 10px;
   }
 
   .navbar a.right {
     font-size: 8px;
+  }
+
+  li {
+    padding: 0px;
   }
 
   #la, #lp, #lit {
