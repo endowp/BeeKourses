@@ -132,20 +132,20 @@ li {
   }
 
   .main h5 {
-    font-size: 14px;
+    font-size: 15px;
    }
 
   .navbar a {
-    padding: 8px;
-    font-size: 11px;
+    padding: 9px;
+    font-size: 14px;
   }
 
   .navbar a.right {
-    font-size: 9px;
+    font-size: 10px;
   }
 
-  li {
-    padding: 0px;
+  ul {
+    padding-left: 20px;
   }
 
   #la, #lp, #lit {
