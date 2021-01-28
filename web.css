@@ -136,12 +136,12 @@ li {
    }
 
   .navbar a {
-    padding: 9px;
-    font-size: 14px;
+    padding: 8px;
+    font-size: 11px;
   }
 
   .navbar a.right {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   ul {
