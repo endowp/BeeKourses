@@ -45,8 +45,10 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #003e68;
+  cursor: pointer;
+  background-color: #00445f;
   color: rgb(255, 255, 255);
+  transition: 0.4s;
 }
 
 #la, #lp, #lt {
