@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 240px;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #001f3d;
+  background-color: #20354b;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -84,10 +85,6 @@ body {
 
 .sidenav a:hover {
   color: #f1f1f1;
-}
-
-#la, #lp, #lt {
-  padding-top: 20px;
 }
 
 .main {   
@@ -118,14 +115,14 @@ li {
   padding-bottom: 8px;
 }
 
-#la a:link, #lp a:link, #lt a:link, #la a:visited, #lp a:visited, #lt a:visited {
+li :first-child:link, li :first-child:visited{
   color:#003b63;
   text-decoration: none;
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}      
+}
 
-#la a:hover, #lp a:hover, #lt a:hover {
+li :first-child:hover{
   color: #00a1b3;
 }
 
@@ -150,6 +147,10 @@ li {
 
 /* for mobile phone*/
 @media screen and (max-width: 768px) {
+
+  html {
+    scroll-padding-top: 160px;
+  }
 
   .header {
     padding: 40px;
